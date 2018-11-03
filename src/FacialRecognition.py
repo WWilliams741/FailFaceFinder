@@ -146,8 +146,10 @@ def facialRecognizer():
 
     # this is where we could add attendance to the student
     # print student who is in attendance
-    print(labels[prevID_] + ", Attendance: " + str(studentAttended))
+    # print(labels[prevID_] + ", Attendance: " + str(studentAttended))
 
     # When everything done, release the capture
     cap.release()
     cv2.destroyAllWindows()
+
+    return labels[prevID_]
