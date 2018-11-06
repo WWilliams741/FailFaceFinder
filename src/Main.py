@@ -1,32 +1,20 @@
 from Class import Class
 import pickle
 import os
+from datetime import datetime
 
-'''
-a = {'hello': 'world'}
-b = {'hello2': 'world2'}
 
-lists = []
-
-with open('filename.pickle', 'wb') as handle:
-    pickle.dump(a, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-with open('filename.pickle', 'ab') as handle:
-    pickle.dump(b, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-with open('filename.pickle', 'rb') as handle:
-    while 1:
-        try:
-            lists.append(pickle.load(handle))
-        except EOFError:
-            break
-
-print (a == lists[1])
-
-# check_class_attendance()
-
-exit()
-'''
+def create_sheet():
+    reset = input("Do you want to clear the students attendance for tomorrow?(Y/N): ").lower()
+    if(reset == "yes" or reset == "y"):
+        print("You are reseting the students for tomorrow, do not create an attendance sheet again for today unless you want all students to be considered false!")
+        print("You will have to take all the students attendance again if you want to correct an error - or you can manually edit the text file")
+        to_reset = True
+    else:
+        to_reset = False
+    the_class = get_class()
+    the_class.create_sheet(to_reset)
+    rewrite_classes(the_class)
 
 def rewrite_classes(updatable_class):
     # create a classes_list to hold all classes from the pickle file
@@ -178,7 +166,7 @@ def add_student_to_class():
     rewrite_classes(intended_class)
 
 def check_class_attendance():
-    '''
+    """
     exited = False
     check_attendance = input("Would you like to check attendance now? (Y/N): ").lower()
 
@@ -189,7 +177,7 @@ def check_class_attendance():
             exited = True
         else:
             check_attendance = input("Please insert a valid input (Y/N): ").lower()
-    '''
+    """
 
     # initial prompt followed by prompt in get_class()
     print("The class you are marking attendance for,")
@@ -198,7 +186,7 @@ def check_class_attendance():
     intended_class = get_class()
 
     # call the class mark attendance function to test against it's students
-    Class.check_attendance(intended_class)
+    intended_class.check_attendance()
 
     # rewrite the pickle file to have updated attendance record
     rewrite_classes(intended_class)
@@ -209,7 +197,13 @@ def activity_request():
     # This is a test to see that the pickle file is updating after a student is marked as attended # print(Class.get_student(get_class(), "rockford"))
 
     # ask what the user would like to do
-    input_1 = input("What would you like to do? \n1. Create a new Class\n2. Add a Student to a Class\n3. Mark attendance of a Student for a Class\n4. Clear Classes\n5. Quit Application\n").lower()
+    input_1 = input("What would you like to do?\n" +
+                    "1. Create a new Class\n" +
+                    "2. Add a Student to a Class\n" +
+                    "3. Mark attendance of a Student for a Class\n" +
+                    "4. Crate an attendance sheet\n" +
+                    "5. Clear Classes\n" +
+                    "6. Quit Application\n").lower()
 
     # determining what to user wants to do
     if input_1 == "1":
@@ -225,10 +219,13 @@ def activity_request():
         check_class_attendance()
         activity_request()
     elif input_1 == "4":
+        create_sheet()
+        activity_request()
+    elif input_1 == "5":
         # if clearing pickle file of all classes (deleting pickle file)
         clear_classes()
         activity_request()
-    elif input_1 == "5":
+    elif input_1 == "6":
         # if exiting the application
         exit()
     else:
