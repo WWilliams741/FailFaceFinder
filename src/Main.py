@@ -155,8 +155,6 @@ def get_class():
             exit()
 
 def add_student_to_class():
-    # initial prompt followed by prompt in get_class()
-    print("The class you like to add a student to,")
 
     # assign the class that the user wants to add a student to
     intended_class = get_class()
