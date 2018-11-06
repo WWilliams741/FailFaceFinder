@@ -2,7 +2,7 @@ class Student:
 
     def __init__(self, name, folder):
         self.name = name
-        self.folder = folder # The file path to where the students pictures are stored
+        self.folder = "images/" + folder # The file path to where the students pictures are stored
         self.attended = False
 
     # Getters:

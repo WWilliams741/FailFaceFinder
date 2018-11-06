@@ -4,32 +4,9 @@
     <list default="true" id="0bb65718-ad11-4236-8b3f-1f99432f19fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Jamie Lannister/220px-Nikolaj_Coster-Waldau_by_Gage_Skidmore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Jamie Lannister/Hot-Nikolaj-Coster-Waldau-Pictures.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Jamie Lannister/Nikolaj-Coster-Waldau-spain-2014-billboard-1548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Jamie Lannister/nikolaj_web.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/IMG_20181103_143452533_BURST000_COVER_TOP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181102_152346564.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181102_152347949.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181102_152546795.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181103_143447850.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181103_143452533_BURST001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181103_151132885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rockford/MVIMG_20181103_151138052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Walker/20181102_165739.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Walker/20181102_165740.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Walker/20181102_165741.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Walker/20181102_165742.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Walker/20181102_165743.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/IMG_20181102_182324196.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/MVIMG_20181102_182326602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/MVIMG_20181102_182329041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/MVIMG_20181102_182331899.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/MVIMG_20181102_182415887.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/WIN_20181030_10_16_22_Pro (2) [1].jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/WIN_20181030_10_16_24_Pro (2) [1].jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ying/WIN_20181030_10_16_24_Pro [1].jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickles/face-labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/pickles/face-labels.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recognizers/face-trainner.yml" beforeDir="false" afterPath="$PROJECT_DIR$/recognizers/face-trainner.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,25 +54,97 @@
     <session id="72489129">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="28" />
+          <entry key="py" value="6068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="28" />
+          <entry key="Python" value="6068" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="pickle" value="5" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#49#553#1" />
+                <element signature="e#6404#6888#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/classes.pickle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="159" selection-start-column="159" selection-end-column="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+                <marker date="1541521797196" expanded="true" signature="251:257" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Student.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FacialRecognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,22 +154,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FacialRecognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2618">
-              <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faces.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="119">
               <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -132,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faces2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="1275">
               <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -144,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faces-train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="663">
               <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -177,16 +214,19 @@
         <option value="$PROJECT_DIR$/faces.py" />
         <option value="$PROJECT_DIR$/faces2.py" />
         <option value="$PROJECT_DIR$/Test.py" />
-        <option value="$PROJECT_DIR$/FacialRecognition.py" />
         <option value="$PROJECT_DIR$/faces-train.py" />
+        <option value="$PROJECT_DIR$/FacialRecognition.py" />
+        <option value="$PROJECT_DIR$/Student.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Class.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.faces">
-    <configuration name="FacialRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +277,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FacialRecognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,16 +374,16 @@
       <item itemvalue="Python.faces" />
       <item itemvalue="Python.faces-train" />
       <item itemvalue="Python.faces2" />
-      <item itemvalue="Python.FacialRecognition" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Test" />
         <item itemvalue="Python.faces" />
         <item itemvalue="Python.faces-train" />
         <item itemvalue="Python.faces2" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.FacialRecognition" />
       </list>
     </recent_temporary>
   </component>
@@ -398,6 +438,16 @@
     <entry file="file://$PROJECT_DIR$/camera-test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/FacialRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -405,29 +455,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces-train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="119">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -435,12 +465,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FacialRecognition.py">
+    <entry file="file://$PROJECT_DIR$/faces2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        <state relative-caret-position="1275">
+          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces-train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+            <marker date="1541521797196" expanded="true" signature="251:257" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/classes.pickle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="159" selection-start-column="159" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#49#553#1" />
+            <element signature="e#6404#6888#1" />
           </folding>
         </state>
       </provider>

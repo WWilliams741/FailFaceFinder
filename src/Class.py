@@ -1,5 +1,5 @@
 from Student import Student
-#from FacialRecognition import facialRecognizer
+from FacialRecognition import facialRecognizer
 
 class Class:
 
@@ -17,8 +17,8 @@ class Class:
     def name(self, name):
         self.__name = name
 
-    def add_student(self, student):
-        self.students[student.name.lower] = student
+    def add_student(self, name, folder):
+        self.students[name.lower()] = Student(name, folder)
 
     def remove_student(self, student):
         try:
@@ -27,18 +27,20 @@ class Class:
         except:
             print("This student does not exist, did you type it correctly?")
 
-    def check_attendance(self, student):
-        try:
-            """
-            recognized_student = facialRecognizer().lower()
-            if recognized_student == student.name.lower():
-                self.students[student.name.lower].attended = True
+    def check_attendance(self):
+        captured_student = facialRecognizer()
+
+        for a_student in self.students:
+            if a_student == captured_student:
+                self.students[a_student].attended = True
+                print(a_student + " was at class: " + str(self.students[a_student].attended))
             else:
-                print("This student is not recognized, would you like to ")
-            """
-        except:
-            input("This student doesn't exist, would you like to add them? (Y/N): ")
+                print(a_student + " was at class: " + str(self.students[a_student].attended))
+
+    # THIS IS/WAS FOR TESTING
+    def get_student(self, name):
+        return self.students[name].attended
 
 
-enrollment = Class("ITCS_6112")
-print(enrollment.name)
+# enrollment = Class("ITCS_6112")
+# print(enrollment.name)
