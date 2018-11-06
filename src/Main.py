@@ -1,7 +1,6 @@
 from Class import Class
 import pickle
 import os
-from datetime import datetime
 
 
 def create_sheet():
@@ -92,10 +91,13 @@ def create_class():
 def clear_classes():
     # get the directory of the current file
     dirname = os.path.dirname(__file__)
-    # add desired location of the pickle file to the end of directory name
-    pickle_file = os.path.join(dirname, 'classes/classes.pickle')
-    # delete the pickle file
-    os.remove(pickle_file)
+    try:
+        # add desired location of the pickle file to the end of directory name
+        pickle_file = os.path.join(dirname, 'classes/classes.pickle')
+        # delete the pickle file
+        os.remove(pickle_file)
+    except:
+        print("There are no classes, try creating one.\n")
 
 def get_class():
     # create a list to hold each class from the pickle file
@@ -137,7 +139,10 @@ def get_class():
 
     # if not return thus far, the class was not found
     # ask if the user wants to search for another class or create a new one
-    input_4 = input("That class was not found.\n1. Search for another class\n2. Create a new class:\n3. Quit Application\n").lower()
+    input_4 = input("That class was not found.\n" +
+                    "1. Search for another class\n" +
+                    "2. Create a new class:\n" +
+                    "3. Quit Application\n").lower()
     while(input_4 != 1) or (input_4 != 2) or (input_4 != 3):
         if input_4 == "1":
             # call get class again
@@ -165,22 +170,7 @@ def add_student_to_class():
     # rewrite the pickle file to have updated student dictionary
     rewrite_classes(intended_class)
 
-def check_class_attendance():
-    """
-    exited = False
-    check_attendance = input("Would you like to check attendance now? (Y/N): ").lower()
-
-    while (not exited):
-        if (check_attendance.lower() == "y" or check_attendance.lower() == "yes"):
-            pass  # for student in Class.students
-        elif (check_attendance.lower() == "n" or check_attendance.lower() == "no"):
-            exited = True
-        else:
-            check_attendance = input("Please insert a valid input (Y/N): ").lower()
-    """
-
-    # initial prompt followed by prompt in get_class()
-    print("The class you are marking attendance for,")
+def mark_attendance():
 
     # assign the class that the user wants to mark attendance for
     intended_class = get_class()
@@ -194,7 +184,6 @@ def check_class_attendance():
     print("Glad that I could check the attendance for you good sir! Have a wonderful day.")
 
 def activity_request():
-    # This is a test to see that the pickle file is updating after a student is marked as attended # print(Class.get_student(get_class(), "rockford"))
 
     # ask what the user would like to do
     input_1 = input("What would you like to do?\n" +
@@ -216,7 +205,7 @@ def activity_request():
         activity_request()
     elif input_1 == "3":
         # if marking a student's attendance
-        check_class_attendance()
+        mark_attendance()
         activity_request()
     elif input_1 == "4":
         create_sheet()
