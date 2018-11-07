@@ -1,0 +1,6 @@
+2018-11-07:
+walker: False
+rockford: True
+an: False
+ying: False
+rashid: False
