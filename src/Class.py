@@ -3,11 +3,12 @@ from FacialRecognition import facial_recognizer
 from datetime import datetime
 import os
 
+
 class Class:
 
     def __init__(self, name):
         self.name = name
-        self.students = {}
+        self.students = dict()
 
     # Name getter
     @property
@@ -26,7 +27,7 @@ class Class:
         try:
             del self.students[student.name.lower()]
             print("You have removed " + student.name + " from the class.")
-        except:
+        except KeyError:
             print("This student does not exist, did you type it correctly?")
 
     def check_attendance(self):
@@ -52,5 +53,5 @@ class Class:
 
             for student in self.students:
                 attendance_sheet.write(self.students[student].name + ": " + str(self.students[student].attended) + "\n")
-                if(reset):
+                if reset:
                     self.students[student].attended = False
