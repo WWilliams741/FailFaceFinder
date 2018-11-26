@@ -165,10 +165,12 @@ def get_class():
         if input_4 == "1":
             # call get class again
             get_class()
+            return
         elif input_4 == "2":
             # create a new class
             create_class()
             get_class()
+            return
         elif input_4 == "3":
             exit()
 
