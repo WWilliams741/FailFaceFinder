@@ -212,7 +212,7 @@ def activity_request():
                     "1. Create a new Class\n"
                     "2. Add a Student to the Class\n"
                     "3. Mark attendance\n"
-                    "4. Crate an attendance sheet\n"
+                    "4. Create an attendance sheet\n"
                     "5. Clear Classes\n"
                     "6. Change the class\n"
                     "7. Quit Application\n").lower()
